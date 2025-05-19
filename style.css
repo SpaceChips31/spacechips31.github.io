@@ -1,19 +1,42 @@
-.container {
-  text-align: center;
-  padding: 1em;
+/* Reset + base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0d0d0d;
+  font-family: 'Segoe UI', sans-serif;
+  color: #ccc;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 90vh;
+  width: 90vw;
+  max-width: 1000px;
 }
 
 .profile {
   display: flex;
   align-items: center;
-  gap: 2em; 
+  justify-content: center;
+  gap: 3rem;
+  flex-grow: 1;
 }
 
 .logo {
-  width: 150px;
-  height: 150px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
-  box-shadow: 0 0 25px #5f00ff;
+  box-shadow: 0 0 40px #5f00ff80;
 }
 
 .text {
@@ -21,25 +44,59 @@
 }
 
 .title {
-  font-size: 2.5rem;
-  color: #8d5eff;
-  text-shadow: 0 0 5px #5f00ff;
-  margin-bottom: 0.5em;
+  font-size: 3rem;
+  background: linear-gradient(to right, #ff00c8, #00bfff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
 }
 
 .subtitle {
   font-size: 1.2rem;
-  color: #ccc;
-  margin-bottom: 1em;
+  color: #aaa;
 }
 
-.links a {
-  margin-right: 1em;
-  text-decoration: none;
-  color: #00bfff;
-  transition: color 0.3s;
+.bar {
+  width: 50px;
+  height: 4px;
+  background: linear-gradient(to right, #ff00c8, #00bfff);
+  margin-top: 1rem;
 }
 
-.links a:hover {
-  color: #8d5eff;
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 3rem;
 }
+
+.icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #1a1a1a;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60%;
+  transition: background-color 0.3s;
+}
+
+.icon:hover {
+  background-color: #333;
+}
+
+/* .x {
+  background-image: url('assets/x-icon.svg');
+}
+
+.github {
+  background-image: url('assets/github-icon.svg');
+}
+
+.email {
+  background-image: url('assets/email-icon.svg');
+}
+*/
