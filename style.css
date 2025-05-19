@@ -1,31 +1,23 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  background-color: #0d0d0d;
-  color: #ccc;
-  font-family: 'Segoe UI', sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  text-align: center;
-}
-
 .container {
   text-align: center;
+  padding: 1em;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 2em; 
 }
 
 .logo {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  margin-bottom: 1em;
   box-shadow: 0 0 25px #5f00ff;
+}
+
+.text {
+  text-align: left;
 }
 
 .title {
@@ -38,11 +30,11 @@ body {
 .subtitle {
   font-size: 1.2rem;
   color: #ccc;
-  margin-bottom: 1.5em;
+  margin-bottom: 1em;
 }
 
 .links a {
-  margin: 0 1em;
+  margin-right: 1em;
   text-decoration: none;
   color: #00bfff;
   transition: color 0.3s;
