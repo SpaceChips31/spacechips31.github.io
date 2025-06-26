@@ -22,19 +22,3 @@ but tries to mean what it says.
 
 Just a few words, a logo, and a way to reach me.  
 You’re safe here. Probably.
-
----
-
-## 💾 Hosted where?
-
-This page lives on GitHub Pages.  
-They might log your IP for technical reasons.  
-I don’t see it. I don’t want to.
-
----
-
-## 🪪 License
-
-MIT for the code.  
-Creative respect for the rest.  
-© 2025 SpaceChips.
